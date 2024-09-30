@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: white;
+    caret-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: none;
+    text-shadow: 0px 0px 1px white;
+
+        text-decoration: none;
+
+}
+
+body{
+    min-height: 200vh;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 6px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+    background: black ; /* Fondo transparente para el track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff; /* Color negro para el thumb */
+    border-radius: 10px; /* Esquinas redondeadas para el thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white; /* Color más claro cuando se pasa el cursor sobre el thumb */
+}
+
+
+body{
+    height: 200vh;
+}

@@ -1,0 +1,96 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: hidden;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    background-image: url('../../../assets/imagenes/fondo/fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    gap: 2rem;
+    padding-top: 120px;
+    padding-bottom: 5rem;
+    .mainBlock{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;    
+        width: 65vw;
+        height: 40vh;
+        gap: 2.5rem;
+        .title{
+            width: 75vw;
+            height: auto;
+    
+            h1{
+                font-size: 5rem;
+                text-align: center;
+            }
+        }
+        .subTitle {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+          
+            gap: 2rem;
+            h2{
+                font-size: 2rem;
+                font-weight: 300;
+            }
+    
+            .titleVideo {
+                padding: 1.5rem;
+                padding-top: 0.5rem;
+                padding-bottom: 0.5rem;
+                margin-top: 5vh;
+                border-radius: 5px;
+                text-align: center;
+                gap: 2rem;
+                cursor: pointer;
+                .ver{
+                    font-size: 1.2rem;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+                
+                &:hover{
+                    -webkit-backdrop-filter: blur(5px);
+                    backdrop-filter: blur(5px);
+                }
+            }
+        }
+    }
+    .map{
+        .mapa{
+            font-size: 1rem;
+        }
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 5px;
+        gap: 2rem;
+    }
+    .map:hover{
+        position: relative;
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        
+    }
+}
+
+/*
+        
+            <iframe modestbranding="1" controls="0" width="560" height="315" src="https://www.youtube.com/embed/as4hVEq02Lg?rel=0" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                ></iframe>
+*/
